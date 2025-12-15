@@ -1,0 +1,6 @@
+package com.notification_worker.repository;
+import com.notification_worker.entity.Notification;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotificationRepository extends JpaRepository<Notification, String> {
+}

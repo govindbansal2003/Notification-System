@@ -1,0 +1,41 @@
+# ===============================
+# Spring Boot config (DO NOT COMMIT)
+# ===============================
+notification-worker/src/main/resources/application.properties
+status-service/src/main/resources/application.properties
+NotificationApp/src/main/resources/application.properties
+
+# (optional future-proof)
+**/src/main/resources/application-*.properties
+
+# ===============================
+# Build output
+# ===============================
+target/
+**/target/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# IDE files
+# ===============================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Maven / Gradle
+# ===============================
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
