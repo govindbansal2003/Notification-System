@@ -1,7 +1,12 @@
 <configuration>
 
+    <!-- Read spring.application.name SAFELY -->
+    <springProperty
+            scope="context"
+            name="APP_NAME"
+            source="spring.application.name"/>
+
     <property name="LOG_PATH" value="${user.dir}/logs"/>
-    <property name="APP_NAME" value="spring.application.name"/>
 
     <!-- Console -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
