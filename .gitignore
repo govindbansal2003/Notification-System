@@ -39,3 +39,10 @@ Thumbs.db
 # ===============================
 .mvn/wrapper/maven-wrapper.jar
 .gradle/
+
+
+# Logs
+logs/
+*.log
+
+logstash.conf
